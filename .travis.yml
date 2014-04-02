@@ -13,7 +13,7 @@ install:
 - sudo pip install WebTest
 - sudo pip install nosegae
 script:
-- git clone https://github.com/slowsoul/tictactoe.git deploy
+- git clone https://github.com/slowsoul/NewTictactoe.git deploy
 - cd deploy
 - /usr/local/bin/nosetests
 after_success:
